@@ -6,7 +6,7 @@
 
 本项目展示了一个三维地球可视化界面，标记了全球主要的咖啡产地。用户可以通过鼠标拖拽旋转地球，滚轮缩放视角，并点击查看各咖啡产地的详细信息。
 
-![3D Coffee Map](docs/screenshot.png)
+![3D Coffee Map](images/screenshot.png)
 
 ## 功能特性
 
