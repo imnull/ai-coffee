@@ -8,6 +8,20 @@
   position: relative;
 }
 
+.app-title {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  margin: 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
 .instructions {
   position: absolute;
   bottom: 20px;
@@ -18,6 +32,7 @@
   font-family: Arial, sans-serif;
   font-size: 14px;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  z-index: 100;
 }
 
 /* 模态框样式 */
@@ -118,6 +133,11 @@
 
 /* 响应式设计 */
 @media (max-width: 768px) {
+  .app-title {
+    font-size: 24px;
+    top: 15px;
+  }
+  
   .instructions {
     font-size: 12px;
     bottom: 10px;
