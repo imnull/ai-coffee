@@ -25,7 +25,7 @@ const Earth = memo(({ onRegionSelect }) => {
     });
     
     // 加载纹理
-    const texture = new THREE.TextureLoader().load('/textures/earth_bright.png');
+    const texture = new THREE.TextureLoader().load('./textures/earth_bright.png');
     material.map = texture;
     
     return material;

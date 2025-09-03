@@ -8,7 +8,8 @@ module.exports = {
     path: path.resolve(__dirname, '../docs'),
     filename: 'bundle.js',
     clean: true,
-    assetModuleFilename: 'assets/[hash][ext][query]'
+    assetModuleFilename: 'assets/[hash][ext][query]',
+    publicPath: './'
   },
   module: {
     rules: [
